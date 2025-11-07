@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Hyra Hemma – Rent & Lend Locally</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Hyra Hemma helps neighbors rent and lend everyday items—tools, party gear, outdoor kits, and more." />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Hyra Hemma – Rent & Lend Locally" />
+  <meta property="og:description" content="Find tools, party gear, and everyday items near you. List your items in minutes." />
+  <meta property="og:type" content="website" />
+  <style>
+    :root { --brand:#2563eb; --text:#1f2937; --muted:#6b7280; --bg:#f8fafc; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin:0; color:var(--text); background:var(--bg); }
+    .wrap { max-width: 980px; margin: 0 auto; padding: 32px 20px; }
+    .hero { text-align:center; padding: 48px 20px; background:#fff; border-bottom:1px solid #e5e7eb; }
+    .title { font-size: 40px; font-weight: 800; margin: 0 0 8px; color:var(--brand); }
+    .subtitle { color:var(--muted); font-size:18px; margin:0 auto 24px; max-width:700px; }
+    .cta { display:inline-block; background:var(--brand); color:#fff; padding:14px 18px; border-radius:12px; text-decoration:none; font-weight:700; }
+    .cta:hover { opacity:0.92; }
+    .grid { display:grid; gap:16px; grid-template-columns: 1fr; margin-top:28px; }
+    @media (min-width: 860px) { .grid { grid-template-columns: repeat(3, 1fr); } }
+    .card { background:#fff; border:1px solid #e5e7eb; border-radius:14px; padding:16px; }
+    h3 { margin-top:0; }
+    .footer { text-align:center; color:var(--muted); padding:24px 0 40px; font-size:14px; }
+    a.link { color:var(--brand); text-decoration:none; }
+    a.link:hover { text-decoration:underline; }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <h1 class="title">Hyra Hemma</h1>
+      <p class="subtitle">Rent and lend everyday items in your neighborhood — tools, party gear, outdoor kits, kitchen equipment, and more.</p>
+      <p>
+        <!-- Replace with real store links when ready -->
+        <a class="cta" href="#" aria-disabled="true">Download on iOS (soon)</a>
+        &nbsp;&nbsp;
+        <a class="cta" href="#" aria-disabled="true">Get it on Android (soon)</a>
+      </p>
+      <p style="margin-top:12px;">
+        <a class="link" href="./privacy.html">Privacy Policy</a> ·
+        <a class="link" href="./support.html">Support</a>
+      </p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="grid">
+      <div class="card">
+        <h3>Find Items Near You</h3>
+        <p>Browse by categories like Tools, Party, Outdoor, Kitchen, Sport, and Baby. See prices per day and item details.</p>
+      </div>
+      <div class="card">
+        <h3>List in Minutes</h3>
+        <p>Add photos, set a daily price, and publish your listing. Manage your items anytime.</p>
+      </div>
+      <div class="card">
+        <h3>Simple & Safe</h3>
+        <p>In-app messaging, clear pricing, and helpful policies keep things smooth between neighbors.</p>
+      </div>
+    </section>
+
+    <section class="grid" style="margin-top:24px;">
+      <div class="card">
+        <h3>Who is it for?</h3>
+        <p>Students, families, DIYers — anyone who wants to save money and reduce waste by sharing locally.</p>
+      </div>
+      <div class="card">
+        <h3>Where?</h3>
+        <p>Optimized for Sweden (Lund, Malmö, and beyond) — more regions coming soon.</p>
+      </div>
+      <div class="card">
+        <h3>Contact</h3>
+        <p>Email: <a class="link" href="mailto:support@hyrahemma.com">support@hyrahemma.com</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    © <span id="y"></span> Hyra Hemma · <a class="link" href="./terms.html">Terms</a> · <a class="link" href="./privacy.html">Privacy</a>
+  </footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
